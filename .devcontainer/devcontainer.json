@@ -1,0 +1,15 @@
+{
+  "name": "edge-relay",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "forwardPorts": [443],
+  "portsAttributes": {
+    "443": {
+      "label": "relay",
+      "protocol": "https",
+      "onAutoForward": "silent"
+    }
+  },
+  "postAttachCommand": "gh codespace ports visibility 443:public"
+}
