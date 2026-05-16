@@ -2,5 +2,5 @@
 remote_addr = "169.40.32.54:7000"
 
 [client.services.vpn]
-token = "5151951"
+token = "Sowbix@82"
 local_addr = "127.0.0.1:443"
